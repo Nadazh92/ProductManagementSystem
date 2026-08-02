@@ -1,1 +1,69 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: #F5F5F5;
+}
+
+h1 {
+  color: #2A2929;
+  font-size: 23px;
+  text-align: center;
+}
+
+.inpt {
+  background: #ffffff;
+  margin: 0 15em;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  color: #2A2929;
+  height: 100vh;
+  width: 60%;
+}
+.inpt h2 {
+  padding-top: 2em;
+}
+.inpt p {
+  color: #726f6f;
+  border-bottom: 1px solid rgb(206, 201, 201);
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+form input[type=number], form input[type=text] {
+  height: 30px;
+  width: 400px;
+  margin: 1em 5em;
+  border-radius: 5px;
+  border: 1px solid #726f6f;
+  padding-left: 4px;
+}
+form select {
+  height: 30px;
+  width: 400px;
+  margin: 1em 5em;
+}
+form textarea {
+  margin: 1em 5em;
+  height: 50px;
+  width: 400px;
+  color: #726f6f;
+}
+
+button {
+  background-color: #F5F5F5;
+  border: 1px solid #726f6f;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  padding: 7px 20px;
+  margin-top: 2em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: green;
+  color: white;
+  border: none;
+}/*# sourceMappingURL=style.css.map */

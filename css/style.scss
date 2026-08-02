@@ -1,0 +1,85 @@
+@use "partial";
+
+body{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ background: partial.$bg-color;
+}
+
+h1{
+    color:partial.$txt-color;
+    font-size: 23px;
+    text-align: center;
+}
+.inpt{
+    background: partial.$bg-color2;
+    margin: 0 15em;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    color:partial.$txt-color;
+    height:100vh;
+    width:60%;
+
+    h2{
+        padding-top: 2em;
+    }
+
+    p{
+        color:partial.$ac-color;
+        border-bottom: 1px solid rgb(206, 201, 201);
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+    }
+
+}
+
+form{
+   
+
+    input[type=number], input[type=text]{
+      height:30px;
+      width:400px;
+      margin: 1em 5em;
+      border-radius: 5px;
+      border:1px solid partial.$ac-color;
+      padding-left: 4px;
+  }
+   select{
+      height:30px;
+      width:400px;
+      margin: 1em 5em;
+      
+  }
+
+   textarea{
+    margin: 1em 5em;
+    height:50px;
+    width:400px;
+    color:partial.$ac-color;
+    
+  } 
+}
+
+ button{
+
+    background-color: partial.$bg-color;
+    border: 1px solid partial.$ac-color;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding: 7px 20px;
+    margin-top: 2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  button:hover{
+    background-color: green;
+    color:white;
+    border:none;
+    
+    
+  }
+
+

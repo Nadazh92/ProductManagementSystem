@@ -10,31 +10,37 @@
 <body>
     <main>
         <h1>Product Management System</h1>
-     
 
-        <div class="input">
+        <div class="inpt">
             <h2>Add New Product</h2>
             <p>Fill in the product details below</p>
-
-            <input type="number" placeholder="ID" name="ID" id="ID">
-            <input type="text" placeholder="Enter product name" name="Proname" id="Proname">
+            <form action="">
+           
+            <input type="number" placeholder="ID" name="ID" id="ID" required>
+            <input type="text" placeholder="Enter product name" name="Proname" id="Proname" required>
+           
             <select name="category" id="category">
+                <option value="ca">Category</option>
                 <option value="women">Women</option>
                 <option value="men">Men</option>
                 <option value="kids">Kids</option>
             </select>
-            <input type="number" placeholder="Enter price" name="price" id="price">
+            <input type="number" placeholder="Enter price" name="price" id="price" required>
+          
+           
             <input type="number" placeholder="Enter stock quantity" name="stockQnty" id="StockQnty">
-            <textarea name="description" id="description" placeholder="Enter prodcut description"></textarea>
-
             <input type="text" placeholder="Enter Image url" name="imgUrl" id="imgUrl">
+          
+            <textarea name="description" id="description" placeholder="Enter prodcut description" >
+
+            </textarea>
             <select name="status" id="status">
-                 <option value="Active">Ative</option>
+                 <option value="Active">Active</option>
                 <option value="nonActive">Non Active</option>
             </select>
+            </form>
 
-            <button id="savePro">Save Product</button>
-            
+            <button id="btnPro">Save Product</button>
         </div>
     </main>
     
